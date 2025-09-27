@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adesh Disale Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background: #0a0e23; color: #fff; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 3rem; background: #0a0e23; position: sticky; top: 0; z-index: 100; }
+    header nav a { margin-left: 2rem; color: #fff; }
+    header nav a.contact { padding: 0.5rem 1rem; border: 1px solid #fff; border-radius: 25px; transition: 0.3s; }
+    header nav a.contact:hover { background: #fff; color: #0a0e23; }
+    .hero { display: flex; justify-content: space-between; align-items: center; padding: 4rem 3rem; }
+    .hero-text h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+    .hero-text p { font-size: 1.1rem; color: #FFD700; margin-bottom: 1rem; }
+    .hero-text button { padding: 0.7rem 1.5rem; border: none; border-radius: 25px; background: #1E40AF; color: #fff; cursor: pointer; transition: 0.3s; }
+    .hero-text button:hover { background: #3746c1; }
+    .hero img { width: 250px; border-radius: 10px; }
+    section { padding: 4rem 3rem; }
+    h2 { font-size: 2rem; margin-bottom: 2rem; border-bottom: 2px solid #3746c1; display: inline-block; padding-bottom: 0.5rem; }
+    .about { display: flex; align-items: center; gap: 2rem; }
+    .about img { width: 150px; border-radius: 50%; }
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+    .skill { margin-bottom: 1rem; }
+    .skill p { margin-bottom: 0.3rem; }
+    .skill-bar { width: 100%; height: 10px; background: #1e293b; border-radius: 5px; overflow: hidden; }
+    .skill-bar span { display: block; height: 100%; background: #2563eb; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .project { background: #11152b; padding: 1.5rem; border-radius: 10px; }
+    .project button { margin-top: 1rem; padding: 0.5rem 1rem; border-radius: 25px; border: none; background: #2563eb; color: #fff; cursor: pointer; }
+    .project button:hover { background: #3b82f6; }
+    footer { text-align: center; padding: 2rem; background: #0a0e23; color: #888; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adesh Disale</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Adesh Disale</h1>
+      <p>SQL Developer · Adobe Campaign Specialist · Backend Developer</p>
+      <p>Currently at AU Small Finance Bank as Adobe Campaign Developer</p>
+      <button>Download Resume</button>
+    </div>
+    <img src="your-photo.jpg" alt="Adesh Disale">
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <img src="your-photo.jpg" alt="Adesh Disale">
+      <p>I am a graduate in core Electronics and Telecommunications, with a strong foundation in both hardware and software. I possess expertise in Python, C++, HTML, CSS, JavaScript, SQL, and database management systems. Currently, I am working as an Adobe Campaign Developer at AU Small Finance Bank.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <p>SQL - 80%</p>
+        <div class="skill-bar"><span style="width: 80%;"></span></div>
+      </div>
+      <div class="skill">
+        <p>Python - 70%</p>
+        <div class="skill-bar"><span style="width: 70%;"></span></div>
+      </div>
+      <div class="skill">
+        <p>C++ - 80%</p>
+        <div class="skill-bar"><span style="width: 80%;"></span></div>
+      </div>
+      <div class="skill">
+        <p>JavaScript - 60%</p>
+        <div class="skill-bar"><span style="width: 60%;"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Inventory Control Management System</h3>
+        <p>For an Innovate granetrie certficer</p>
+        <p>SQL, Python, Parto</p>
+        <button>View on GitHub</button>
+      </div>
+      <div class="project">
+        <h3>Number System Converter</h3>
+        <p>For: Scana neana Converter</p>
+        <p>SQL, Ctain</p>
+        <button>View on GitHub</button>
+        <button>Live Demo</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Adesh Disale. All Rights Reserved.
+  </footer>
+</body>
+</html>
